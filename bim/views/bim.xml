@@ -15,7 +15,7 @@
 
         <record id="view_bim_form" model="ir.ui.view">
             <field name="name">bim.form</field>
-            <field name="model">bim</field>
+            <field name="model">bim.bim</field>
             <field name="priority" eval="8" />
             <field name="arch" type="xml">
                 <form string="school">
