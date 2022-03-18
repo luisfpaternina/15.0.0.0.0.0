@@ -62,6 +62,12 @@
             groups="bim.bim_manager_group"
             web_icon="bim,static/description/icon.png"
             sequence="36"/>
+
+        <menuitem 
+            id="menu_bim_project"
+            name="BIM project"
+            parent="menu_bim"
+            action="action_view_bim"/>
                    
     </data>
 </odoo>
