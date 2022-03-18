@@ -27,7 +27,11 @@
     'depends': [
 
         'base',
-        'base_address_city',
+        'stock',
+        'sale_management',
+        'account_accountant',
+        'project',
+        'sale_subscription',
 
     ],
 
