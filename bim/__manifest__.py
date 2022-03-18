@@ -37,7 +37,7 @@
 
     'data': [
 
-        'security/ir.model.access.csv',
+        #'security/ir.model.access.csv',
         'security/security.xml',      
         'views/bim.xml',
         #'reports/report_license_plates.xml',
