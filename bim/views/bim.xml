@@ -60,7 +60,7 @@
             id="menu_bim"
             name="BIM"
             groups="bim.bim_manager_group"
-            web_icon="school,static/description/icon.png"
+            web_icon="bim,static/description/icon.png"
             sequence="36"/>
                    
     </data>
