@@ -1,0 +1,52 @@
+##########################################################################################
+#
+# Ing.Luis Felipe Paternina
+# Odoo Dev
+#
+# lfpaternina93@gmail.com
+#
+# +573215062353
+#
+# Bogota,Colombia
+#
+############################################################################################
+
+{
+    'name': 'BIM project',
+
+    "summary": """Information modeling for building.""",
+
+    'version': '15.0.0.0',
+
+    'author': "Luis Felipe Paternina",
+
+    'website': "https://github.com/luisfpaternina",
+
+    'category': 'BIM',
+
+    'depends': [
+
+        'base',
+        'base_address_city',
+
+    ],
+
+    'data': [
+
+        'security/ir.model.access.csv',
+        'security/security.xml',      
+        'views/bim.xml',
+        #'reports/report_license_plates.xml',
+              
+    ],
+    
+    "images": [
+        #'static/description/school.png'
+    ],
+    
+
+    "application": False,
+    "installable": True,
+    "auto_install": False,
+
+}
