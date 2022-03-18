@@ -4,6 +4,7 @@ from odoo import models, fields, _
 class BimBim(models.Model):
 
     _name = "bim.bim"
+    _inherit = 'mail.thread'
     _description = "BIM"
 
     name = fields.Char(
